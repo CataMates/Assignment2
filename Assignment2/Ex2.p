@@ -36,12 +36,12 @@ DO TRANSACTION:
         Customer.State = "CJ".
         Customer.PostalCode = "400604".
         Customer.EmailAddress = "catalin.mates@tss-yonder.com".
-    CREATE Order.
-    ASSIGN
-        Order.CustNum = Customer.CustNum.
-    CREATE OrderLine.
-    ASSIGN
-        OrderLine.Ordernum = Order.OrderNum.
+/*    CREATE Order.*/
+/*    ASSIGN                                  */
+/*        Order.CustNum = Customer.CustNum.   */
+/*    CREATE OrderLine.                       */
+/*    ASSIGN                                  */
+/*        OrderLine.Ordernum = Order.OrderNum.*/
         
 END.
     
